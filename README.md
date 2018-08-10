@@ -36,7 +36,7 @@ This API requires a couple of keys that must be provided before running the appl
 ---
 
 # Folders-Structure  
-    (https://github.com/or73/Async_API_Pizza_Delivery/blob/master/config/config.js)
+
 * [config](https://github.com/or73/Async_API_Pizza_Delivery/blob/master/config)    
     * [config.js](https://github.com/or73/Async_API_Pizza_Delivery/blob/master/config/config.js)   
 * [controllers](https://github.com/or73/Async_API_Pizza_Delivery/blob/master/controllers)
