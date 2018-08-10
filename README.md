@@ -2,7 +2,7 @@ API for a Pizza-Delivery Company
 =
 ---
 # Requirements  
-This API requires a couple of keys that must be provided before running the application.  These keys must be added in the **[config.js](https://github.com/or73/Async_API_Pizza_Delivery/blob/master/config/config.js)** file, and are keys for **`stripe`** and **`mailgun`**. Required fields are marked with a **'*`This key cannot be shared, user your own key`*'** message.
+This API requires a couple of keys that must be provided before running the application.  These keys must be added in the **[config.js](https://github.com/or73/Async_API_Pizza_Delivery/blob/master/config/config.js)** file, and are keys for **`stripe`** and **`mailgun`**. Required fields are marked with a **'*`This key cannot be shared, use your own key`*'** and **'*`This data cannot be shared, use your own domain`*'** messages.
 
 ## Table of Contents
 
