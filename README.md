@@ -1,6 +1,8 @@
 API for a Pizza-Delivery Company
 =
 ---
+# Requirements  
+This API requires a couple of keys that must be provided before running the application.  These keys must be added in the **[config.js](https://github.com/or73/Async_API_Pizza_Delivery/blob/master/config/config.js)** file, and are keys for **`stripe`** and **`mailgun`**. Required fields are marked with a **'*`This key cannot be shared, user your own key`*'** message.
 
 ## Table of Contents
 
@@ -20,6 +22,8 @@ API for a Pizza-Delivery Company
 
 8. **[User's Methods](#users-methods)** ⇒ | [<code>POST</code>](#user-post) | [<code>GET</code>](#user-get) | [<code>PUT</code>](#user-put) | [<code>DELETE</code>](#user-delete) |
 
+9. **[Credits](#credits)** 
+
 ---
 
 # Server-Ports  
@@ -32,20 +36,20 @@ API for a Pizza-Delivery Company
 ---
 
 # Folders-Structure  
-    
-* [config](https://github.com/or73/apipizzacompany/tree/master/config)    
-    * [config.js](https://github.com/or73/apipizzacompany/blob/master/config/config.js)   
-* [controllers](https://github.com/or73/apipizzacompany/tree/master/controllers)
-    * [menu.js](https://github.com/or73/apipizzacompany/blob/master/controllers/menu.js)
-    * [order.js]()
-    * [shoppingCart.js]()
-    * [tokens.js](https://github.com/or73/apipizzacompany/blob/master/controllers/tokens.js)
-    * [users.js](https://github.com/or73/apipizzacompany/blob/master/controllers/users.js)
-* [lib](https://github.com/or73/apipizzacompany/tree/master/lib)
-    * [authentication.js](https://github.com/or73/apipizzacompany/blob/master/lib/authentication.js)
-    * [helpers.js](https://github.com/or73/apipizzacompany/blob/master/lib/helpers.js)
-    * [router.js](https://github.com/or73/apipizzacompany/blob/master/lib/router.js)
-* [app.js](https://github.com/or73/apipizzacompany/blob/master/app.js)
+    (https://github.com/or73/Async_API_Pizza_Delivery/blob/master/config/config.js)
+* [config](https://github.com/or73/Async_API_Pizza_Delivery/blob/master/config)    
+    * [config.js](https://github.com/or73/Async_API_Pizza_Delivery/blob/master/config/config.js)   
+* [controllers](https://github.com/or73/Async_API_Pizza_Delivery/blob/master/controllers)
+    * [menu.js](https://github.com/or73/Async_API_Pizza_Delivery/blob/master/controllers/menu.js)
+    * [order.js](https://github.com/or73/Async_API_Pizza_Delivery/blob/master/controllers/purchaseOrders.js)
+    * [shoppingCart.js](https://github.com/or73/Async_API_Pizza_Delivery/blob/master/controllers/shoppingCart.js)
+    * [tokens.js](https://github.com/or73/Async_API_Pizza_Delivery/blob/master/controllers/tokens.js)
+    * [users.js](https://github.com/or73/Async_API_Pizza_Delivery/blob/master/controllers/users.js)
+* [lib](https://github.com/or73/Async_API_Pizza_Delivery/blob/master/lib)
+    * [authentication.js](https://github.com/or73/Async_API_Pizza_Delivery/blob/master/lib/authentication.js)
+    * [helpers.js](https://github.com/or73/Async_API_Pizza_Delivery/blob/master/lib/helpers.js)
+    * [router.js](https://github.com/or73/Async_API_Pizza_Delivery/blob/master/lib/router.js)
+* [app.js](https://github.com/or73/Async_API_Pizza_Delivery/blob/master/app.js)
 
 ---   
 # Controllers-and-Objects-Structure-and-Relationships
@@ -1054,3 +1058,5 @@ Stores information of required user
 | 428   | Timer expired.   Token expired                                            |
 
 ---   
+# Credits
+* Code: or73
